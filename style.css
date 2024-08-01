@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Russo+One&display=swap");
 :root {
   --primary-color: #ecf0fc;
   --fst-size: 120px;
@@ -12,7 +12,7 @@
 }
 
 body {
-  font-family: "Russo One", sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: var(--primary-color);
 }
 
@@ -132,7 +132,7 @@ marquee h5 {
   border: 1px solid #7a7a7a;
   padding: 5px 15px;
   margin-right: 15px;
-  font-weight: 100;
+  font-weight: 300;
 }
 marquee h5:nth-child(even) {
   border-radius: 15px;
@@ -149,8 +149,8 @@ marquee h5:first-child {
   padding: 5rem 1.5rem;
 }
 .fs-1 h4 {
-  font-size: var(--snd-size);
-  font-weight: 200;
+  font-size: 3rem;
+  font-weight: 500;
   margin-bottom: 3rem;
 }
 .f-s-card-co {
@@ -171,8 +171,9 @@ marquee h5:first-child {
   aspect-ratio: 10/10;
 }
 .f-s-card h4 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin: 1rem 0;
+  font-weight: 400;
 }
 .f-s-card h6 {
   font-size: 18px;
@@ -189,7 +190,7 @@ marquee h5:first-child {
   max-width: 49%;
 }
 .fs-c-2-2 {
-  padding: 5rem;
+  padding: 8rem;
   flex-direction: column;
   background-color: var(--primary-color);
   border-radius: 100%;
@@ -226,4 +227,105 @@ marquee h5:first-child {
 }
 .fs-c-2-3-3 h3 span {
   text-decoration: underline;
+}
+
+/* footer */
+
+/* footer  */
+footer {
+  padding: 2rem 0;
+  background-color: #000;
+  color: #d3caca;
+}
+.footer-content {
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.footer-content .c-2-5 {
+  flex-basis: 49%;
+  max-width: 49%;
+}
+.footer-content .c-2-5 p {
+  font-size: var(--peragraph-size1);
+}
+.footer-content .c-2-5 ul {
+  justify-content: flex-start;
+  margin: 23px 0px;
+  align-items: center;
+  list-style: none;
+}
+.footer-content .c-2-5 li {
+  margin: 0 9px 0 0;
+}
+.footer-content .c-2-5 li a {
+  background-color: var(--secondary-color);
+  padding: 10px 10px;
+  text-decoration: none;
+  display: flex;
+  border-radius: 100%;
+}
+.footer-content .c-2-5 li a svg {
+  width: 20px;
+  fill: var(--primary-color);
+}
+.footer-content .c-1-5 {
+  flex-basis: 19%;
+  padding: 0 2rem;
+  max-width: 19%;
+}
+.footer-content .c-1-5 h4 {
+  font-size: var(--third-size);
+  font-weight: 400;
+  margin: 0 0 20px;
+}
+.footer-content .c-1-5 ul {
+  flex-direction: column;
+  list-style: none;
+}
+
+.footer-content .c-1-5 ul li a {
+  text-decoration: none;
+  display: block;
+  color: var(--secondary-color);
+  font-size: var(--peragraph-size1);
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.c-5-5 {
+  flex-basis: 29%;
+  max-width: 29%;
+}
+.c-5-5 h4 {
+  font-size: var(--third-size);
+  margin: 0 0 20px 0;
+}
+
+.c-5-5 ul {
+  flex-direction: column;
+}
+.c-5-5 ul li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 0 20px;
+}
+.c-5-5 ul li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  justify-content: flex-start;
+  color: var(--secondary-color);
+}
+.c-5-5 ul li a p {
+  display: inline;
+  font-size: var(--peragraph-size1);
+  margin: 0 0 0 10px;
+}
+.c-5-5 ul li a svg {
+  fill: var(--secondary-color);
+  width: 17px;
+  margin: 5px 0 0 0;
 }
