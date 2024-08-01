@@ -23,6 +23,7 @@ body {
 
 nav {
   box-shadow: 3px -5px 9px 0px #888888;
+  position: sticky;
 }
 
 .logo {
