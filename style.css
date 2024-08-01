@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Russo+One&display=swap");
+:root {
+  --primary-color: #ecf0fc;
+  --fst-size: 120px;
+  --snd-size: 30px;
+  --thrd-size: 20px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Russo One", sans-serif;
+  background-color: var(--primary-color);
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+nav {
+  box-shadow: 3px -5px 9px 0px #888888;
+}
+
+.logo {
+  max-width: 20%;
+  flex-basis: 20%;
+}
+.logo img {
+  width: 200px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+
+nav ul {
+  flex-basis: 59%;
+  max-width: 59%;
+  list-style: none;
+}
+nav ul li {
+  padding: 10px 5px;
+}
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  font-size: var(--thrd-size);
+  color: #908383;
+  margin: 0 23px 0 25px;
+  transition: all 0.4s ease;
+}
+nav ul li a:hover {
+  text-decoration: dashed;
+  font-size: var(--thrd-size);
+  color: #313030;
+}
+.cart {
+  max-width: 20%;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  /* flex-basis: 20%; */
+}
+.cart a {
+  text-decoration: none;
+  margin: 0 31px 0 0;
+  padding: 10px 5px;
+}
+.cart a svg {
+  fill: #6f6b6b;
+  width: 18px;
+}
+/* <!-- navigation bar --> */
+
+/* <!-- header section --> */
+.header-bg {
+  background-image: url(./Images/bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 40%;
+}
+
+.header-btns {
+  aspect-ratio: 10/4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-btns a {
+  background-color: #d9afd9;
+  background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+  text-decoration: none;
+  padding: 20px 10px;
+  font-size: 1rem;
+  margin-right: 20px;
+  border: 3px solid transparent;
+  border-radius: 9px;
+  transition: all 0.4s ease;
+  display: inline-block;
+}
+.header-btns a:hover {
+  border: 3px solid #fff;
+}
+
+/* <!-- header section --> */
+.marque-container {
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+  border: 1px solid #686464;
+}
+marquee {
+  display: flex;
+  flex: 0 0 1000px;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+marquee h5 {
+  font-size: 2rem;
+  display: inline-block;
+  border: 1px solid #7a7a7a;
+  padding: 5px 15px;
+  margin-right: 15px;
+  font-weight: 100;
+}
+marquee h5:nth-child(even) {
+  border-radius: 15px;
+}
+marquee h5:last-child {
+  background-color: #d9afd9;
+  background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+}
+marquee h5:first-child {
+  background-color: #b5e08d;
+  background-image: linear-gradient(0deg, #add19d 0%, #b0e862 100%);
+}
+.fs-1 {
+  padding: 5rem 1.5rem;
+}
+.fs-1 h4 {
+  font-size: var(--snd-size);
+  font-weight: 200;
+  margin-bottom: 3rem;
+}
+.f-s-card-co {
+  padding: 2rem 1rem;
+  gap: 26px;
+  justify-content: center;
+  align-items: center;
+}
+.f-s-card {
+  flex-basis: 24%;
+  max-width: 22%;
+  border-radius: 10%;
+  border: 1px solid;
+  padding: 1.5rem;
+}
+.f-s-card img {
+  width: 100%;
+  aspect-ratio: 10/10;
+}
+.f-s-card h4 {
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+.f-s-card h6 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+/* fsc2 */
+.fs-c-2 {
+  background-color: #ffff;
+  padding: 2rem 0;
+}
+.c-2 {
+  flex-basis: 49%;
+  max-width: 49%;
+}
+.fs-c-2-2 {
+  padding: 5rem;
+  flex-direction: column;
+  background-color: var(--primary-color);
+  border-radius: 100%;
+}
+.c-2 img {
+  width: 80%;
+}
+.c-2 h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.c-2 h3 {
+  font-size: var(--snd-size);
+  margin-bottom: 12px;
+}
+.c-2 p {
+  text-align: center;
+}
+.c-2 a {
+  margin-top: 20px;
+  font-size: large;
+  text-decoration: none;
+  color: #282525;
+}
+/*  */
+.fs-c-2-3-3 {
+  padding: 2rem 1.4rem;
+  margin-top: 5rem;
+  background-color: var(--primary-color);
+}
+.fs-c-2-3-3 h3 {
+  font-size: var(--fst-size);
+  width: 90%;
+}
+.fs-c-2-3-3 h3 span {
+  text-decoration: underline;
+}
